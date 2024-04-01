@@ -6,3 +6,6 @@ from langchain.document_loaders import UnstructuredPDFLoader
 from langchain.chat_models import ChatOpenAI
 from langchain.chains.question_answering import load_qa_chain
 
+
+if __name__ == '__main__':
+    print("Hello")
